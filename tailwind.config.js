@@ -2,13 +2,13 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-    mode: 'jit',
-    purge: [
-        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-        './vendor/laravel/jetstream/**/*.blade.php',
-        './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
-    ],
+    // mode: 'jit',
+    // purge: [
+    //     './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+    //     './vendor/laravel/jetstream/**/*.blade.php',
+    //     './storage/framework/views/*.php',
+    //     './resources/views/**/*.blade.php',
+    // ],
 
     theme: {
         extend: {
@@ -16,10 +16,10 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                trueGrey: colors.trueGray,
+                truegray: colors.trueGray,
                 orange: colors.orange,
                 greenLime: colors.lime,
-              }
+            }
         },
     },
 
